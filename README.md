@@ -63,7 +63,7 @@ void playfair(char *in, char *out, int enc)
 int main() 
 {
     char encrypted[100], decrypted[100];
-    char text[] = "VARSHA";
+    char text[] = "SHYAM";
     playfair(text, encrypted, 1);
     printf("Encrypted: %s\n", encrypted);
     playfair(encrypted, decrypted, 0);
@@ -72,4 +72,5 @@ int main()
 ~~~
 
 ## Output:
-![cry ex 2](https://github.com/user-attachments/assets/bfdb8d5c-9958-477c-b518-87914a259c27)
+<img width="1637" height="723" alt="image" src="https://github.com/user-attachments/assets/c5d06a19-7960-442b-b8a9-283ce180b54c" />
+
